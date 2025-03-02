@@ -12,15 +12,18 @@ This project implements the simplex algorithm, an efficient method for solving l
 
 1.  Rewriting the problem in standard form :
     From an initial system combining our objective function and the associated constraints
-    ![initial systeme](initial_systeme.png)
+       <img src="initial_systeme.png" alt="initial systeme" width="200">
+
     
-    - Any equality constraint can be written as two inequalities:
-      ![equialities to inequalities](standardform1.png)
+    - Any equality constraint can be written as two inequalities
+      <img src="standardform1.png" alt="equialities to inequalities" width="200">
       
     - Any ≥ constraint can be written as a ≤ constraint:
-      ![superior to inferior](standardform2.png)
+      <img src="standardform2.png" alt="superior to inferior to inequalities" width="200">
+      
       
     - Any minimization problem can be turned into a maximization
       problem:
-      ![minimization to maximization](standardform3.png)
+      <img src="standardform3.png" alt="minimization to maximization" width="200">
+     
   
