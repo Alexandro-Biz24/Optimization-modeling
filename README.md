@@ -12,15 +12,15 @@ This project implements the simplex algorithm, an efficient method for solving l
 
 1.  Rewriting the problem in standard form :
     From an initial system combining our objective function and the associated constraints
-    ![initial systeme](rmsle_formula.png)
+    ![initial systeme](initial_systeme.png)
     
     - Any equality constraint can be written as two inequalities:
-      ![equialities to inequalities](rmsle_formula.png)
+      ![equialities to inequalities](standardform1.png)
       
     - Any ≥ constraint can be written as a ≤ constraint:
-      ![superior to inferior](rmsle_formula.png)
+      ![superior to inferior](standardform2.png)
       
     - Any minimization problem can be turned into a maximization
       problem:
-      ![minimization to maximization](rmsle_formula.png)
+      ![minimization to maximization](standardform3.png)
   
