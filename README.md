@@ -8,5 +8,19 @@ Linear optimization is an essential technique for maximizing or minimizing an ob
 
 This project implements the simplex algorithm, an efficient method for solving linear optimization problems applied to concrete cases such as :
 
-**Princpial step :s**
+**Princpial step :**
 
+1.  Rewriting the problem in standard form :
+    From an initial system combining our objective function and the associated constraints
+    ![initial systeme](rmsle_formula.png)
+    
+    - Any equality constraint can be written as two inequalities:
+      ![equialities to inequalities](rmsle_formula.png)
+      
+    - Any ≥ constraint can be written as a ≤ constraint:
+      ![superior to inferior](rmsle_formula.png)
+      
+    - Any minimization problem can be turned into a maximization
+      problem:
+      ![minimization to maximization](rmsle_formula.png)
+  
