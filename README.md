@@ -1,6 +1,4 @@
-# Optimization-modeling
-
-## Linear Programming & Simplex Algorithm
+# Linear Programming & Simplex Algorithm
 This project implements the simplex method to solve linear optimization problems using Python and SciPy.
 
 **Project description**
